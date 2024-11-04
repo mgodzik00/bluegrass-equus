@@ -21,4 +21,8 @@
    top: 20px;
    left: 50px;
    position: absolute;
+   text-shadow: 3px 2px 3px #5F03DA;
+}
+.nav-list {
+   display: flex;
 }
