@@ -165,7 +165,7 @@ only screen and ( min-resolution: 2dppx) and (min-width: 1200px) {
    font-weight: bold;
 }
 .nav-list-items button:hover {
-   background-color: inherit;
+   background-color: #EC92C3;
 }
 .nav-list-items a {
    color: inherit;
