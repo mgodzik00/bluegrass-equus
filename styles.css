@@ -25,4 +25,32 @@
 }
 .nav-list {
    display: flex;
+   padding: 0;
+   margin: 0;
+   justify-content: space-between;
+   list-style-type: none;
+}
+
+.nav-list-items {
+   margin: 0;
+   flex-grow: 1;
+}
+.nav-list-items button {
+   width: 100%;
+   border: none;
+   background-color: inherit;
+   padding: 10px 0;
+   color: inherit;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   
+}
+.nav-list-items button:hover {
+   background-color: inherit;
+}
+.nav-list-items a {
+   color: inherit;
+   text-decoration: none;
+   display: block;
 }
