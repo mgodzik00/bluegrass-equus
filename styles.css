@@ -1,4 +1,119 @@
 @charset "utf-8";
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+}/* For non-retina based devices that have a smaller screen */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Retina enabled devices with smaller screen */
+@media  only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), 
+only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 320px),  
+only screen and ( min-device-pixel-ratio: 2) and (min-width: 320px),  
+only screen and ( min-resolution: 192dpi) and (min-width: 320px),  
+only screen and ( min-resolution: 2dppx) and (min-width: 320px) {
+
+}
+
+/*Non- retina based devices with medium screen size */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Retina devices with medium screen size */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),  
+only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 768px),  
+only screen and ( min-device-pixel-ratio: 2) and (min-width: 768px),  
+only screen and ( min-resolution: 192dpi) and (min-width: 768px),  
+only screen and ( min-resolution: 2dppx) and (min-width: 768px) {
+
+}
+
+/* Non-retina devices with large screen sizes */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Retina devices with large screen sizes */
+@media  only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),  
+only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 1200px),  
+only screen and ( min-device-pixel-ratio: 2) and (min-width: 1200px),  
+only screen and ( min-resolution: 192dpi) and (min-width: 1200px),  
+only screen and ( min-resolution: 2dppx) and (min-width: 1200px) {
+
+}
+
 .header-logo {
    background-color: #000000;
    text-align: center;
@@ -37,14 +152,17 @@
 }
 .nav-list-items button {
    width: 100%;
-   border: none;
-   background-color: inherit;
+   border: ridge #A223F5;
+   background-color: #6A5A71;
    padding: 10px 0;
-   color: inherit;
+   color: #EB14F7;
    text-align: center;
    text-decoration: none;
    cursor: pointer;
-   
+   font-family: tangerine;
+   font-size: 5vw;
+   text-shadow: 2px 1px 1px #5F03DA;
+   font-weight: bold;
 }
 .nav-list-items button:hover {
    background-color: inherit;
