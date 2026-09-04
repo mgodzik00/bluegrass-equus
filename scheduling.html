@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Request scheduling information for rider lessons, horse training, horse exercising, and custom equine portraits with Bluegrass Equus.">
+  <title>Scheduling | Bluegrass Equus</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-logo" href="index.html" aria-label="Bluegrass Equus home">Bluegrass Equus</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="scheduling.html" aria-current="page">Scheduling</a>
+      <a href="art-work.html">Equine Portraits</a>
+      <a href="equine-life.html">Equine Life</a>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Start the conversation</p>
+      <h1>Scheduling & Service Inquiries</h1>
+      <p>Share a few details about your goals, your horse, or the portrait you have in mind. Every request is reviewed before a service or session is confirmed.</p>
+    </section>
+    <section class="content-section">
+      <h2>Choose a service</h2>
+      <div class="card-grid">
+        <article class="service-card"><h3>Rider Lessons</h3><p>Tell us about your riding background, goals, preferred days, and whether you are seeking youth or adult instruction.</p></article>
+        <article class="service-card"><h3>Horse Training</h3><p>Include your horse’s age, experience, current needs, training goals, and any helpful handling or health notes.</p></article>
+        <article class="service-card"><h3>Horse Exercising</h3><p>Describe the desired riding or groundwork routine, frequency, turnout schedule, and any important care instructions.</p></article>
+        <article class="service-card"><h3>Custom Portrait</h3><p>Request information about a portrait of your own horse, a gift, or an original equine artwork.</p></article>
+      </div>
+    </section>
+    <section class="content-section">
+      <h2>Inquiry form</h2>
+      <form class="inquiry-form" action="#" method="post">
+        <p><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required></p>
+        <p><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></p>
+        <p><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></p>
+        <p><label for="service">I am interested in</label><select id="service" name="service" required><option value="">Select a service</option><option>Rider lessons</option><option>Horse training</option><option>Horse exercising</option><option>Custom equine portrait</option><option>Original equine artwork</option></select></p>
+        <p><label for="date">Preferred date or general availability</label><input id="date" name="date" type="text" placeholder="Example: weekday evenings or Saturdays"></p>
+        <p><label for="details">Tell us more</label><textarea id="details" name="details" rows="7" placeholder="Share goals, rider experience, horse details, reference-photo questions, or anything else that will help." required></textarea></p>
+        <p><button class="button" type="submit">Send Inquiry</button></p>
+      </form>
+      <p class="form-note">This form is a design placeholder until a form service or email destination is connected. Sending an inquiry does not reserve a date until it has been confirmed.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><p>&copy; 2026 Bluegrass Equus. <a href="art-work.html">View equine portraits</a>.</p></footer>
+</body>
+</html>
